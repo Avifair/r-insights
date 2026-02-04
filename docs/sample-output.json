@@ -1,0 +1,21 @@
+{
+  "subreddit": "example_subreddit",
+  "timeWindow": "last_14_days",
+  "topics": [
+    {
+      "topic": "Post-update stability issues",
+      "trend": "increasing",
+      "representativeThreads": [
+        "https://reddit.com/r/example_subreddit/comments/abc123",
+        "https://reddit.com/r/example_subreddit/comments/def456"
+      ]
+    },
+    {
+      "topic": "New player onboarding questions",
+      "trend": "stable",
+      "representativeThreads": [
+        "https://reddit.com/r/example_subreddit/comments/ghi789"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,24 @@
+{
+  "name": "reddit-community-insights",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Community-focused subreddit analytics pilot operated by the Avifair team.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "lint": "eslint .",
+    "format": "prettier . --write"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
 
